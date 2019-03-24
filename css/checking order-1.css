@@ -302,7 +302,9 @@ html {
         margin-left: 440px;
     
 }
-
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
     }
 @media(max-width: 768px){
     .navbar .menu{
@@ -315,11 +317,13 @@ html {
         margin-left: 310px;
     
 }
-
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
     }
     @media(max-width: 414px){
     .navbar .menu{
-        height: 80%;
+        height: 100%;
      }
      .navbar .menu .menu-link .txt-2{
         margin-left: 155px;
@@ -328,11 +332,13 @@ html {
         margin-left: 140px;
     
 }
-
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
     }
 @media(max-width: 411px){
     .navbar .menu{
-        height: 80%;
+        height: 100%;
      }
      .navbar .menu .menu-link .txt-2{
         margin-left: 155px;
@@ -340,10 +346,14 @@ html {
 .navbar .menu .menu-link img{
         margin-left: 135px;
     }
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
 }
+}
+
 @media(max-width: 376px){
     .navbar .menu{
-        height: 90%;
+        height: 100%;
      }
      .navbar .menu .menu-link .txt-2{
         margin-left: 140px;
@@ -352,8 +362,10 @@ html {
         margin-left: 120px;
     
 }
-
-    }
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
+  
     }
     @media(max-width: 360px){
     .navbar .menu{
@@ -366,7 +378,9 @@ html {
         margin-left: 110px;
     
 }
-
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
     }
     @media(max-height: 454px){
     .navbar .menu{
@@ -390,12 +404,15 @@ html {
      }
      .navbar .menu .menu-link .txt-2{
         margin-left: 115px;
+        margin-top: 5px;
 }
 .navbar .menu .menu-link img{
         margin-left: 95px;
     
 }
-
+.navbar .menu .menu-item .menu-link {
+    padding: 4px 7px;
+}
     }
 /* menu-toggle */
 .menu-toggle{
