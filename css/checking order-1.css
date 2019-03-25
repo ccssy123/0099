@@ -237,7 +237,6 @@ html {
     float: left;
     color: #304f82;
     text-decoration: none;
-
 }
 
 .navbar .menu .menu-item .menu-link img {
@@ -526,7 +525,11 @@ form.example::after {
     clear: both;
     display: table;
 }
-
+@media(max-width: 768px){
+    .menu-toggle{
+        display: block;
+    }
+}
 /*Search Bar end*/
 /**********navbar end************/
 
